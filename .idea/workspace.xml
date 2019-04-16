@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c03271a4-82d9-4b25-a220-fc57f6aa32b8" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="c03271a4-82d9-4b25-a220-fc57f6aa32b8" name="Default Changelist" comment="добавил PersonList для авторизации1">
+      <change afterPath="$PROJECT_DIR$/src/components/PersonList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Login/index.js" afterDir="false" />
+    </list>
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -36,10 +53,17 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/PersonList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/PersonList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
               <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -51,8 +75,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="646">
               <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="21" />
+=======
+            <state relative-caret-position="459">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -110,8 +139,14 @@
         <option value="$PROJECT_DIR$/src/containers/Auth/index.js" />
         <option value="$PROJECT_DIR$/src/containers/Checkin/index.js" />
         <option value="$PROJECT_DIR$/src/containers/Home/index.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/components/PersonList.js" />
         <option value="$PROJECT_DIR$/src/containers/App/App.js" />
+=======
+        <option value="$PROJECT_DIR$/src/containers/App/App.js" />
+        <option value="$PROJECT_DIR$/src/containers/Login/index.js" />
+        <option value="$PROJECT_DIR$/src/components/PersonList.js" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
       </list>
     </option>
   </component>
@@ -136,11 +171,14 @@
               <item name="auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="auth" type="b2602c69:ProjectViewProjectNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
           </expand>
           <select />
         </subPane>
@@ -211,6 +249,10 @@
       <workItem from="1555417296337" duration="1789000" />
       <workItem from="1555419145107" duration="1297000" />
       <workItem from="1555420989455" duration="870000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1555424250658" duration="792000" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
     </task>
     <task id="LOCAL-00001" summary="PersonList">
       <created>1555411104183</created>
@@ -254,16 +296,35 @@
       <option name="project" value="LOCAL" />
       <updated>1555421833106</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="36021000" />
+=======
+    <task id="LOCAL-00007" summary="добавил PersonList для авторизации1">
+      <created>1555424425903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555424425903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36813000" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20293398" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20537898" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -317,7 +378,13 @@
     <MESSAGE value="добавил PersonList" />
     <MESSAGE value="добавил PersonList123" />
     <MESSAGE value="добавил PersonList для авторизации" />
+<<<<<<< HEAD
     <option name="LAST_COMMIT_MESSAGE" value="добавил PersonList для авторизации" />
+=======
+    <MESSAGE value="добавил PersonList для авторизации135" />
+    <MESSAGE value="добавил PersonList для авторизации1" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил PersonList для авторизации1" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -374,7 +441,11 @@
     <entry file="file://$PROJECT_DIR$/src/containers/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
+<<<<<<< HEAD
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+=======
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -391,26 +462,43 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/components/PersonList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/containers/Registration/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="39" selection-start-line="39" selection-end-line="39" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/containers/Registration/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -425,16 +513,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/PersonList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+>>>>>>> добавил PersonList d htgjpbnjhb. auth
         </state>
       </provider>
     </entry>
