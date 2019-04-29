@@ -1,71 +1,94 @@
 import React, {Component} from 'react';
 import {Form, Icon, Input, Button,} from 'antd';
+import {connect} from 'react-redux';
+import  {loginAction} from "../../actions/auth";
+import { withRouter } from "react-router";
 
 const FormItem=Form.Item;
 
 
+function hasErrors(fieldsError) {
+    return Object.keys(fieldsError).some(field => fieldsError[field]);
+}
 
 class Login extends Component {
+    componentDidMount() {
+        // To disabled submit button at the beginning.
+        this.props.form.validateFields();
+
+        console.log(this.props.token);
+        const { history, token } = this.props;
+        if(!!token && token.dateCreate + token.timeExist<Date.now()){
+            history.push("/home");
+        }
+
+
+
+    }
+    handleSubmit=(ev)=>{
+    const {loginAction} = this.props;
+    ev.preventDefault();
+        this.props.form.validateFields((err, values) => {
+            if (!err) {
+                console.log('Received values of form: ', values);
+                loginAction(values);
+            }
+        });
+        return false;
+    }
+
+
+
     render() {
+        const {
+            getFieldDecorator, getFieldsError, getFieldError, isFieldTouched,
+        } = this.props.form;
+    console.log(this.props.token)
+        // Only show error after a field is touched.
+        const userNameError = isFieldTouched('userName') && getFieldError('userName');
+        const passwordError = isFieldTouched('password') && getFieldError('password');
         return (
-            <div>
-                <FormItem>
-                    <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
+            <Form layout="inline" onSubmit={this.handleSubmit}>
+                <Form.Item
+                    validateStatus={userNameError ? 'error' : ''}
+                    help={userNameError || ''}
+                >
+                    {getFieldDecorator('userName', {
+                        rules: [{ required: true, message: 'Please input your username!' }],
+                    })(
+                        <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
                     )}
-                </FormItem>
-                <FormItem>
-                    <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
+                </Form.Item>
+                <Form.Item
+                    validateStatus={passwordError ? 'error' : ''}
+                    help={passwordError || ''}
+                >
+                    {getFieldDecorator('password', {
+                        rules: [{ required: true, message: 'Please input your Password!' }],
+                    })(
+                        <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
                     )}
-                </FormItem>
-                <FormItem>
-                    <a className="login-form-forgot" href="">
-                        Forgot password
-                    </a>
-                </FormItem>
-                <FormItem>
+                </Form.Item>
+                <Form.Item>
                     <Button
                         type="primary"
                         htmlType="submit"
-                        className="login-form-button"
+                        disabled={hasErrors(getFieldsError())}
                     >
-                        Register
+                        Log in
                     </Button>
-                </FormItem>
-            </div>
+                </Form.Item>
+            </Form>
         );
-
     }
 }
+const mapStateToProps = (state) => {
+    return { token: state.users.auth}
+}
 
-export default Login;
+export default withRouter( connect(mapStateToProps, {
+    loginAction
+})(Form.create({ name: 'horizontal_login' })(Login)));
 
 
 
-/*<Form {...formItemLayout} onSubmit={this.handleSubmit}>
-    <Form.Item
-        label="E-mail"
-    >
-        {getFieldDecorator('email', {
-            rules: [{
-                type: 'email', message: 'The input is not valid E-mail!',
-            }, {
-                required: true, message: 'Please input your E-mail!',
-            }],
-        })(
-            <Input />
-        )}
-    </Form.Item>
-    <Form.Item
-        label="Password"
-    >
-        {getFieldDecorator('password', {
-            rules: [{
-                required: true, message: 'Please input your password!',
-            }, {
-                validator: this.validateToNextPassword,
-            }],
-        })(
-            <Input type="password" />
-        )}
-    </Form.Item>
-</Form>*/
